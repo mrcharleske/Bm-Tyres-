@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BM TYRES & RIMS EXPRESS</title>
+
+  <!-- Tailwind Play CDN (fast for static sites) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // custom theme colors
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#d32f2f',
+            jet: '#111111',
+            metal: '#b0bec5',
+            lightbg: '#f5f5f5'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- AOS (animations on scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#d32f2f" />
+
+  <meta name="description" content="BM Tyres & Rims Express — Quality tyres and rims. Order via WhatsApp or Call." />
+
+  <!-- small extra css -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-lightbg text-gray-900 antialiased">
+  <!-- Header / Navbar -->
+  <header class="bg-jet text-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center font-bold">BM</div>
+        <div>
+          <h1 class="text-xl font-bold">BM TYRES & RIMS EXPRESS</h1>
+          <p class="text-xs">Quality tyres · Premium rims · Fast delivery across Kenya</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-4 text-sm">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#shop" class="hover:underline">Shop</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="https://wa.me/254714512412?text=Hi%20I%20want%20to%20order" class="ml-4 px-3 py-2 bg-primary rounded text-white font-semibold">Order on WhatsApp</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="menuBtn" class="p-2 bg-white/10 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden bg-jet text-white hidden">
+      <div class="px-4 py-3 flex flex-col gap-2">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/254714512412?text=Hi%20I%20want%20to%20order" class="mt-2 px-3 py-2 bg-primary rounded text-white font-semibold">Order on WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div data-aos="fade-right">
+        <h2 class="text-4xl font-extrabold">Get quality tyres & rims — delivered fast.</h2>
+        <p class="mt-4 text-gray-700">BM Tyres & Rims Express supplies new tyres and alloy rims for a wide range of vehicles. Order easily via WhatsApp or call us to reserve stock.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#shop" class="inline-flex items-center gap-2 px-5 py-3 bg-primary text-white rounded-lg font-semibold shadow">Shop Tyres & Rims</a>
+          <a href="https://wa.me/254714512412?text=Hi%20I%20want%20to%20order" class="inline-flex items-center gap-2 px-5 py-3 border rounded-lg">Order on WhatsApp</a>
+        </div>
+
+        <div class="mt-6 text-sm text-gray-600">Call: <a href="tel:+254714512412" class="font-medium">+254 714 512 412</a> · Email: <a href="mailto:mulibenson9@gmail.com">mulibenson9@gmail.com</a></div>
+      </div>
+
+      <div data-aos="fade-left" class="rounded-lg overflow-hidden shadow-lg">
+        <!-- Replace placeholder with your hero photo -->
+        <img src="https://via.placeholder.com/800x500?text=BM+Tyres+Hero" alt="BM Tyres" class="w-full h-80 object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features / Why choose us -->
+  <section class="bg-white py-10">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div class="p-6 rounded-lg shadow text-center" data-aos="zoom-in">
+        <div class="text-4xl mb-3">🚚</div>
+        <h3 class="font-bold">Nationwide Delivery</h3>
+        <p class="mt-2 text-sm text-gray-600">We deliver tyres and rims across Kenya. Share location on WhatsApp when ordering.</p>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="text-4xl mb-3">🔧</div>
+        <h3 class="font-bold">Quality Brands</h3>
+        <p class="mt-2 text-sm text-gray-600">We stock trusted brands — Michelin, Bridgestone, Enkei, BBS and more.</p>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="text-4xl mb-3">💬</div>
+        <h3 class="font-bold">Order Support</h3>
+        <p class="mt-2 text-sm text-gray-600">Fast responses via WhatsApp. Reserve stock by phone or message.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop / Product grid -->
+  <section id="shop" class="max-w-6xl mx-auto px-4 py-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold">Shop — Tyres & Rims</h2>
+      <div class="flex items-center gap-3">
+        <select id="filter" class="p-2 border rounded">
+          <option value="all">All</option>
+          <option value="Tyre">Tyres</option>
+          <option value="Rim">Rims</option>
+        </select>
+        <button id="refreshBtn" class="px-3 py-2 border rounded">Refresh</button>
+      </div>
+    </div>
+
+    <div id="products" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Product template injected by JS -->
+    </div>
+
+    <div class="mt-8 text-sm text-gray-600">Prices in KSH. Click <span class="font-semibold">Order via WhatsApp</span> to send an order message.</div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-white py-10">
+    <div class="max-w-4xl mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-2xl font-bold">About BM Tyres & Rims Express</h2>
+      <p class="mt-4 text-gray-700">BM Tyres & Rims Express is a Kenyan tyre and rim supplier. We provide high-quality products, professional advice, and fast delivery. To order, contact us on WhatsApp or call the number above.</p>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="max-w-6xl mx-auto px-4 py-10 text-gray-700">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div data-aos="fade-up">
+        <h3 class="font-bold">Contact</h3>
+        <p class="mt-2">Call / WhatsApp: <a href="tel:+254714512412" class="text-primary font-semibold">+254 714 512 412</a></p>
+        <p>Email: <a href="mailto:mulibenson9@gmail.com" class="text-primary">mulibenson9@gmail.com</a></p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <h3 class="font-bold">Visit</h3>
+        <p class="mt-2">We deliver nationwide. Share your location when ordering for faster service.</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <h3 class="font-bold">Working Hours</h3>
+        <p class="mt-2">Mon–Sat: 8am — 6pm</p>
+      </div>
+    </div>
+
+    <div class="mt-8 text-center text-sm text-gray-500">&copy; <span id="year"></span> BM Tyres & Rims Express</div>
+  </footer>
+
+  <!-- AOS and site scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true })
+    document.getElementById('year').textContent = new Date().getFullYear()
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn')
+    const mobileMenu = document.getElementById('mobileMenu')
+    menuBtn?.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden'))
+
+    // Sample product data (replace with your real JSON later)
+    const sampleProducts = [
+      {id:'tyre-001', type:'Tyre', brand:'Michelin', model:'Primacy 4', size:'205/55 R16', price:8000, img:'https://via.placeholder.com/600x400?text=Tyre+1'},
+      {id:'tyre-002', type:'Tyre', brand:'Bridgestone', model:'Turanza', size:'195/65 R15', price:6500, img:'https://via.placeholder.com/600x400?text=Tyre+2'},
+      {id:'rim-001', type:'Rim', brand:'Enkei', model:'Sport', size:'16 inch', price:12000, img:'https://via.placeholder.com/600x400?text=Rim+1'},
+      {id:'rim-002', type:'Rim', brand:'BBS', model:'Classic', size:'17 inch', price:18000, img:'https://via.placeholder.com/600x400?text=Rim+2'},
+      {id:'tyre-003', type:'Tyre', brand:'Goodyear', model:'EfficientGrip', size:'215/60 R16', price:9000, img:'https://via.placeholder.com/600x400?text=Tyre+3'},
+      {id:'rim-003', type:'Rim', brand:'Replica', model:'Sportline', size:'18 inch', price:15000, img:'https://via.placeholder.com/600x400?text=Rim+3'}
+    ]
+
+    const productsEl = document.getElementById('products')
+    const filterEl = document.getElementById('filter')
+    const refreshBtn = document.getElementById('refreshBtn')
+
+    function formatKsh(n){ return n.toLocaleString('en-KE') }
+
+    function renderProducts(list){
+      productsEl.innerHTML = ''
+      list.forEach(p => {
+        const card = document.createElement('article')
+        card.className = 'bg-white rounded-lg shadow overflow-hidden flex flex-col'
+        card.innerHTML = `
+          <img src="${p.img}" alt="${p.model}" class="w-full h-48 object-cover" />
+          <div class="p-4 flex-1 flex flex-col">
+            <h3 class="font-bold">${p.brand} ${p.model}</h3>
+            <p class="text-sm text-gray-600">${p.size} — ${p.type}</p>
+            <div class="mt-2 font-semibold text-primary">KSH ${formatKsh(p.price)}</div>
+            <p class="mt-2 text-sm text-gray-600 flex-1">High quality product. Contact us to reserve stock.</p>
+            <div class="mt-4 flex gap-2">
+              <a href="https://wa.me/254714512412?text=${encodeURIComponent("Hi BM Tyres, I'm interested in: "+p.brand+" "+p.model+" ("+p.size+") - KSH "+p.price)}" target="_blank" class="flex-1 text-center py-2 rounded bg-primary text-white font-semibold">Order via WhatsApp</a>
+              <a href="tel:+254714512412" class="py-2 px-4 rounded border border-gray-200">Call</a>
+            </div>
+          </div>
+        `
+        card.setAttribute('data-aos','fade-up')
+        productsEl.appendChild(card)
+      })
+      AOS.refresh()
+    }
+
+    filterEl.addEventListener('change', ()=> {
+      const v = filterEl.value
+      renderProducts(v === 'all' ? sampleProducts : sampleProducts.filter(p => p.type === v))
+    })
+
+    refreshBtn.addEventListener('click', ()=> renderProducts(sampleProducts))
+
+    // initial render
+    renderProducts(sampleProducts)
+
+    // PWA install prompt (simple toast)
+    let deferredPrompt
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault()
+      deferredPrompt = e
+      const installToast = document.createElement('div')
+      installToast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 bg-white p-3 rounded shadow flex items-center gap-3'
+      installToast.innerHTML = `<div class="text-sm">Install BM Tyres for quick access</div><button id="installBtn" class="px-3 py-1 bg-primary text-white rounded">Install</button>`
+      document.body.appendChild(installToast)
+      document.getElementById('installBtn').addEventListener('click', async ()=>{
+        installToast.remove()
+        deferredPrompt.prompt()
+        const choice = await deferredPrompt.userChoice
+        deferredPrompt = null
+      })
+    })
+
+    // register service worker for PWA
+    if('serviceWorker' in navigator){
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('./service-worker.js').then(reg=>{
+          console.log('SW registered', reg)
+        }).catch(err=>console.warn('SW registration failed', err))
+      })
+    }
+  </script>
+
+</body>
+</html>
