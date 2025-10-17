@@ -1,11 +1,19 @@
-/* styles.css - minimal complements to Tailwind */
+/* styles.css - complements Tailwind */
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-
-/* small utility if you want a .container class without Tailwind */
 .container { max-width: 72rem; margin-left: auto; margin-right: auto; }
-
-/* optional: tweak AOS animation easing */
 [data-aos] { transition-timing-function: cubic-bezier(.2,.8,.2,1); }
 
-/* small shadow tweak for cards */
-.shadow { box-shadow: 0 6px 24px rgba(15,15,15,0.06); }
+/* Modal */
+#modalBackdrop, #productModalBackdrop { display: none; }
+#modalBackdrop.active, #productModalBackdrop.active { display: flex; }
+
+/* Simple card shadow tweak */
+.card-shadow { box-shadow: 0 8px 30px rgba(15,15,15,0.06); }
+
+/* Product image fit */
+.product-img { width: 100%; height: 220px; object-fit: cover; }
+
+/* Small responsive tweak */
+@media (max-width: 768px) {
+  .product-img { height: 180px; }
+}
