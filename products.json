@@ -1,0 +1,23 @@
+[
+  {"id":"tyre-001","type":"Tyre","brand":"Michelin","model":"Primacy 4","size":"205/55 R16","price_ksh":8000,"image":"https://via.placeholder.com/800x500?text=Michelin+Primacy+4","description":"Comfort and long life for road driving."},
+  {"id":"tyre-002","type":"Tyre","brand":"Bridgestone","model":"Turanza T005","size":"195/65 R15","price_ksh":6500,"image":"https://via.placeholder.com/800x500?text=Bridgestone+Turanza","description":"Reliable daily driving tyre."},
+  {"id":"tyre-003","type":"Tyre","brand":"Goodyear","model":"EfficientGrip","size":"215/60 R16","price_ksh":9000,"image":"https://via.placeholder.com/800x500?text=Goodyear+EfficientGrip","description":"Fuel-efficient and durable."},
+  {"id":"tyre-004","type":"Tyre","brand":"Pirelli","model":"Cinturato P7","size":"205/55 R16","price_ksh":8600,"image":"https://via.placeholder.com/800x500?text=Pirelli+Cinturato","description":"Sporty handling with comfort."},
+  {"id":"tyre-005","type":"Tyre","brand":"Continental","model":"ComfortContact","size":"195/65 R15","price_ksh":7200,"image":"https://via.placeholder.com/800x500?text=Continental+Comfort","description":"Balanced performance and grip."},
+  {"id":"tyre-006","type":"Tyre","brand":"Dunlop","model":"Sport Maxx","size":"225/45 R17","price_ksh":12000,"image":"https://via.placeholder.com/800x500?text=Dunlop+Sport+Maxx","description":"High-performance tyre for sport driving."},
+  {"id":"tyre-007","type":"Tyre","brand":"Hankook","model":"Kinergy","size":"195/55 R16","price_ksh":5800,"image":"https://via.placeholder.com/800x500?text=Hankook+Kinergy","description":"Value tyre with reliable grip."},
+  {"id":"tyre-008","type":"Tyre","brand":"Yokohama","model":"BluEarth","size":"205/55 R16","price_ksh":7700,"image":"https://via.placeholder.com/800x500?text=Yokohama+BluEarth","description":"Eco-friendly and comfortable."},
+  {"id":"tyre-009","type":"Tyre","brand":"Maxxis","model":"Premitra","size":"215/55 R17","price_ksh":6900,"image":"https://via.placeholder.com/800x500?text=Maxxis+Premitra","description":"Affordable tyre with good wear life."},
+  {"id":"tyre-010","type":"Tyre","brand":"Nexen","model":"N'Fera","size":"225/45 R17","price_ksh":6800,"image":"https://via.placeholder.com/800x500?text=Nexen+N'Fera","description":"Sporty look and confident handling."},
+
+  {"id":"rim-001","type":"Rim","brand":"Enkei","model":"Sport","size":"16 inch","price_ksh":12000,"image":"https://via.placeholder.com/800x500?text=Enkei+Sport","description":"Lightweight alloy rim, durable finish."},
+  {"id":"rim-002","type":"Rim","brand":"BBS","model":"Classic","size":"17 inch","price_ksh":18000,"image":"https://via.placeholder.com/800x500?text=BBS+Classic","description":"Premium design for a bold look."},
+  {"id":"rim-003","type":"Rim","brand":"OZ Racing","model":"Racing","size":"17 inch","price_ksh":16500,"image":"https://via.placeholder.com/800x500?text=OZ+Racing","description":"Performance-oriented lightweight rim."},
+  {"id":"rim-004","type":"Rim","brand":"Replica","model":"Sportline","size":"18 inch","price_ksh":15000,"image":"https://via.placeholder.com/800x500?text=Replica+Sportline","description":"Attractive style at a good price."},
+  {"id":"rim-005","type":"Rim","brand":"Motegi","model":"Racer","size":"16 inch","price_ksh":11000,"image":"https://via.placeholder.com/800x500?text=Motegi+Racer","description":"Strong construction for daily use."},
+  {"id":"rim-006","type":"Rim","brand":"Rays","model":"TE37","size":"18 inch","price_ksh":26000,"image":"https://via.placeholder.com/800x500?text=Rays+TE37","description":"Iconic lightweight performance rim."},
+  {"id":"rim-007","type":"Rim","brand":"MSW","model":"Split","size":"17 inch","price_ksh":13000,"image":"https://via.placeholder.com/800x500?text=MSW+Split","description":"Modern spoke design for style."},
+  {"id":"rim-008","type":"Rim","brand":"Advanti","model":"Storm","size":"16 inch","price_ksh":12500,"image":"https://via.placeholder.com/800x500?text=Advanti+Storm","description":"Good balance of style and strength."},
+  {"id":"rim-009","type":"Rim","brand":"American Racing","model":"Torq Thrust","size":"15 inch","price_ksh":14000,"image":"https://via.placeholder.com/800x500?text=American+Racing","description":"Classic muscle car rim look."},
+  {"id":"rim-010","type":"Rim","brand":"Konig","model":"Hypergram","size":"18 inch","price_ksh":15500,"image":"https://via.placeholder.com/800x500?text=Konig+Hypergram","description":"Stylish lightweight rim for modern cars."}
+]
