@@ -1,7 +1,8 @@
 {
   "name": "BM Tyres & Rims Express",
   "short_name": "BM Tyres",
-  "start_url": ".",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#d32f2f",
